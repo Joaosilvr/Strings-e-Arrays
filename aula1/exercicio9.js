@@ -14,6 +14,6 @@ console.log(listaDeTarefas);
 addEventListener
 let realizado = prompt('digite o numero da tarefa que ja realizou 0,1 ou 2')
 
-listaDeTarefas.splice(realizado,realizado)
+listaDeTarefas.splice(realizado,1)
 
 console.log(listaDeTarefas);
